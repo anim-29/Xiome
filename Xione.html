@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>April Fool</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-image: url('https://img.freepik.com/premium-photo/april-fool-day-with-colorful-comedian-joker-funny-laughing-clown-ai-generative_952301-2695.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    h1 {
+        font-size: 5rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 70%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    .report-spam {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 1;
+    }
+</style>
+</head>
+<body>
+    <button class="report-spam" onclick="reportSpam()">Report Spam</button>
+    <h1>April Fool ;)</h1>
+
+    <script>
+        function reportSpam() {
+            
+            window.location.href = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj_UavHoNAE00FLNhamd0rGOAS9ojKs-FzY1JlTQsGUA&s';
+        }
+    </script>
+</body>
+</html>
